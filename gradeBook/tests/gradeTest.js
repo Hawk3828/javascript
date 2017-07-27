@@ -1,4 +1,4 @@
-var book = require("../lib/grades.js"). book ;
+var book = require("../lib/grades.js").book ;
 
 // This export is used to reset the _grades array so that it can be used again
 exports ["setUp"] = function (callback){
@@ -6,7 +6,7 @@ exports ["setUp"] = function (callback){
 	    callback();
 };
 
-//This export is a test to get a letter grade for 
+//This export is a test to get a letter grade 
 exports ["Can compute a letter grade of 'A' "] = function (test){
 		book.addGrade(100);
 		book.addGrade(90);

@@ -42,6 +42,7 @@ var gradeBook = {
 			return "D" ;
 		}	
 			return "F";	
-	},
+	}
 	
-exports.book = gradeBook ;
+};
+	exports.book = gradeBook;
